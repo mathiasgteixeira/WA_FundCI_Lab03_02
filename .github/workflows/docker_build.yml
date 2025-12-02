@@ -23,7 +23,7 @@ jobs:
           context: ./
           push: true
           dockerfile: ./Dockerfile # Specify the path to your Dockerfile
-          tags:  mathiasgteixeira/WA_FundCI_Lab03_02
+          tags:  mathiasgteixeira/webacademy:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
